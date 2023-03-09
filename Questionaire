@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Prompt the user for their name
+read -p "What is your name? " name
+
+# Prompt the user for their age
+read -p "What is your age? " age
+
+# Prompt the user for the place they were born
+read -p "Where were you born? " birthplace
+
+# Prompt the user for the name of the school they went to
+read -p "What school did you attend? " school
+
+# Prompt the user for their major
+read -p "What did you major in? " major
+
+# Prompt the user for their favorite food
+read -p "What is your favorite food? " favorite_food
+
+# Generate the statement that combines all of the answers
+statement="Hi, my name is $name. I am Kurdish."
+
+# Print out the statement
+echo $statement
+sleep 5
+
+# Open a YouTube video at the end of the script
+xdg-open "https://www.youtube.com/watch?v=trt-3SOjRts&ab_channel=R%C4%B1dvanY%C4%B1ld%C4%B1r%C4%B1me"
