@@ -25,5 +25,5 @@ statement="Hi, my name is $name. I am Kurdish."
 echo $statement
 sleep 5
 
-# Open a YouTube video at the end of the script
+# Open a YouTube video at the end of the script (xdg-utils must be installed as a package in order for xdg-open command to work)
 xdg-open "https://www.youtube.com/watch?v=trt-3SOjRts&ab_channel=R%C4%B1dvanY%C4%B1ld%C4%B1r%C4%B1me"
